@@ -22,7 +22,7 @@ const dataBelanjaan = [
 
 
 const listBelanjaan = (array)=>{
-  let data=[]
+  data=[]
   for(let i=0; i<array.length; i++){
     data.push("- " + array[i].nama + " x " + array[i].kuantitas);
   }
